@@ -2,7 +2,7 @@
     --negro: #000000;
     --blanco: #FFFFFF;
     --fuentePrincipal: 'Raleway', sans-serif;
-    --colorPrincipal:  #17A2B8;
+    --colorPrincipal:  #2ebbe2;
 }
 body{
     font-family: var(--fuentePrincipal);
@@ -10,13 +10,58 @@ body{
     color: var(--blanco);
     background-color: var(--negro);
 }
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+h1{
+    font-size: 1.4rem;
+}
+h2{
+    font-size: 1.2rem;
+}
 
 .navbar, .navbar-collapse{
     background: none;
 
 }
+
 .logo{
     width: 30px;
     height: 30px;
     background: none;
+}
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .parrafos{
+        flex-direction: row;
+    }
+}
+.icono {
+    text-align: center;
+    background-color: var(--colorPrincipal);
+  }
+.footer{
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem 0 10rem ;
+    align-items: center;
+}
+.footer_titulo{
+
+    margin-bottom: 0;
+}
+.redes-sociales{
+    list-style-type: none;
+    margin-bottom: 0.2rem;
+}
+.red-social{
+    display: inline-block;
+    padding: 0 0.2rem;
+    font-size: 1.6rem;
 }
