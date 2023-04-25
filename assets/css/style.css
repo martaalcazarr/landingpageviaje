@@ -1,0 +1,22 @@
+:root{
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --fuentePrincipal: 'Raleway', sans-serif;
+    --colorPrincipal:  #17A2B8;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    /* text-align: center; */
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+.navbar, .navbar-collapse{
+    background: none;
+
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background: none;
+}
