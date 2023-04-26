@@ -4,6 +4,7 @@
     --fuentePrincipal: 'Raleway', sans-serif;
     --colorPrincipal:  #2ebbe2;
 }
+
 body{
     font-family: var(--fuentePrincipal);
     /* text-align: center; */
@@ -19,6 +20,13 @@ h1{
 }
 h2{
     font-size: 1.2rem;
+    padding: 2rem 0;
+}
+h5{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.7rem;
 }
 
 .navbar, .navbar-collapse{
@@ -41,10 +49,59 @@ h2{
         flex-direction: row;
     }
 }
+
 .icono {
     text-align: center;
     background-color: var(--colorPrincipal);
   }
+.parrafos-parrafo p{
+    text-align: justify;
+}
+.destacados{
+    padding: 1rem 0;
+}
+
+    
+    .card{
+        background-color: var(--colorPrincipal);
+        border-color: var(--blanco);
+        
+        color: var(--blanco);
+        width: 15rem;
+        height: 15rem;
+    }
+    .card-body{
+        
+    }
+    .imagen-destacados{
+        width: 100%;
+        height: 40%;
+    }
+
+
+.card{
+    background-color: var(--colorPrincipal);
+    border-color: var(--blanco);
+    border-radius: 1%;
+    color: var(--blanco);
+    width: 20rem;
+    height: 20rem;
+}
+.card-body{
+    
+}
+
+.imagen-destacados{
+    width: 100%;
+    height: 40%;
+}
+.formulario{
+    padding-bottom: 2rem;
+}
+.btn{
+    background-color: var(--colorPrincipal);
+    color: var(--blanco);
+}
 .footer{
     background-color: var(--colorPrincipal);
     display: flex;
