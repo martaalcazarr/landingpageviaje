@@ -61,24 +61,6 @@ p{
     padding: 1rem 0;
 }
 
-    
-    .card{
-        background-color: var(--colorPrincipal);
-        border-color: var(--blanco);
-        
-        color: var(--blanco);
-        width: 15rem;
-        height: 15rem;
-    }
-    .card-body{
-        
-    }
-    .imagen-destacados{
-        width: 100%;
-        height: 40%;
-    }
-
-
 .card{
     background-color: var(--colorPrincipal);
     border-color: var(--blanco);
@@ -87,9 +69,15 @@ p{
     width: 20rem;
     height: 20rem;
 }
+@media (max-width: 768px) {
+    .card{
+        width: auto;
+    }
+}
 .card-body{
     
 }
+
 
 .imagen-destacados{
     width: 100%;
@@ -109,6 +97,11 @@ p{
     padding: 1rem 10rem 0 10rem ;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .footer{
+       padding: 1rem 0.5rem;
+    }
+}
 .footer_titulo{
 
     margin-bottom: 0;
@@ -117,6 +110,7 @@ p{
     list-style-type: none;
     margin-bottom: 0.2rem;
 }
+
 .red-social{
     display: inline-block;
     padding: 0 0.2rem;
